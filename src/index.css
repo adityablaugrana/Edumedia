@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .markdown-body h1 {
+    @apply text-2xl font-serif italic mt-6 mb-4 text-[#1A1A1A];
+  }
+  .markdown-body h2 {
+    @apply text-xl font-serif italic mt-5 mb-3 text-[#1A1A1A];
+  }
+  .markdown-body h3 {
+    @apply text-lg font-bold mt-4 mb-2 text-[#2D2D2D];
+  }
+  .markdown-body p {
+    @apply mb-4 text-[#4B4B4B] text-sm leading-relaxed;
+  }
+  .markdown-body ul {
+    @apply list-disc list-outside ml-5 mb-4 text-[#4B4B4B] text-sm space-y-1;
+  }
+  .markdown-body ol {
+    @apply list-decimal list-outside ml-5 mb-4 text-[#4B4B4B] text-sm space-y-1;
+  }
+  .markdown-body li {
+    @apply pl-1;
+  }
+  .markdown-body strong {
+    @apply font-bold text-[#2D2D2D];
+  }
+  .markdown-body hr {
+    @apply my-6 border-[#E2E1D9];
+  }
+  .markdown-body code {
+    @apply bg-[#F5F5F5] text-[#008185] px-1.5 py-0.5 rounded text-xs font-mono;
+  }
+  .markdown-body pre {
+    @apply bg-[#F9F8F3] border border-[#E2E1D9] rounded p-4 overflow-x-auto text-xs font-mono text-[#4B4B4B] leading-relaxed my-4;
+  }
+  .markdown-body pre code {
+    @apply bg-transparent text-inherit p-0 font-mono text-xs;
+  }
+}

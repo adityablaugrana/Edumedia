@@ -1,0 +1,8 @@
+{
+  "name": "Remix Edu-Media Generator",
+  "description": "A generator for digital learning media structures and design prompts for teachers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
